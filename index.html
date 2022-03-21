@@ -240,16 +240,21 @@
               name="email"
               placeholder="Your email.."
             />
-            <label for="device">Your Donation</label>
+            <label for="device">Your Charity</label>
             <input
               type="text"
               id="device"
               name="device"
-              placeholder="What smartphone are you donating?"
+              placeholder="What's the name of your charity?"
             />
-            <label for="method">Donation Options</label>
+            <label for="myRange"
+              >How many phones would you like us to supply?</label
+            >
+            <input type="number" min="1" max="1000" value="10" id="myRange" />
+
+            <label for="method">Delivery Options</label>
             <select id="method" name="method">
-              <option value="mail-in">Mail-In</option>
+              <option value="mail-in">Mail</option>
               <option value="pick-up">Pick-Up</option>
             </select>
 
