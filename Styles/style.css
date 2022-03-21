@@ -127,9 +127,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html,body{
-   overflow-x:hidden;
-}
 html {
   display: 100%;
   font-family: "Roboto", sans-serif;
@@ -403,6 +400,7 @@ section h2 {
   gap: 1rem;
   padding: 2rem;
   margin-inline: 1rem;
+  line-height: 1.2;
 }
 .usp .usp-container p {
   width: 75%;
